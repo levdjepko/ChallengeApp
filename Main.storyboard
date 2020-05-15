@@ -33,7 +33,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="UIButton590_TouchUpInside:" destination="BYZ-38-t0r" id="984" eventType="touchUpInside"/>
+                                    <action selector="SelectChallengeButton_TouchUpInside:" destination="BYZ-38-t0r" id="1588" eventType="touchUpInside"/>
                                 </connections>
                                 <size key="titleShadowOffset" width="0" height="0"/>
                                 <state key="normal" title="I picked it!">

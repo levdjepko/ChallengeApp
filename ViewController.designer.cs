@@ -30,9 +30,9 @@ namespace hundredDaysOf
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void empty (UIKit.UITextField sender);
 
-        [Action ("UIButton590_TouchUpInside:")]
+        [Action ("SelectChallengeButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton590_TouchUpInside (UIKit.UIButton sender);
+        partial void SelectChallengeButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
