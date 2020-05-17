@@ -76,6 +76,9 @@
       <PackageReference Include="Microsoft.Azure.Mobile.Client.SQLiteStore">
         <Version>3.0.3</Version>
       </PackageReference>
+      <PackageReference Include="sqlite-net-pcl">
+        <Version>1.7.335</Version>
+      </PackageReference>
     </ItemGroup>
     <ItemGroup>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -124,6 +127,7 @@
     <ItemGroup>
         <Folder Include="Resources\" />
         <Folder Include="Models\" />
+        <Folder Include="Connections\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -142,6 +146,8 @@
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
         <Compile Include="Models\Challenge.cs" />
+        <Compile Include="Connections\ISqlConnection.cs" />
+        <Compile Include="SQLConnection.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
